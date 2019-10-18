@@ -5,4 +5,30 @@
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#etch-a-sketch {
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+  text-align: center;
+}
+
+#reset-button {
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+#container {
+  width: 480px; height: 480px;
+  border: 1px solid black;
+  display: grid;
 }
